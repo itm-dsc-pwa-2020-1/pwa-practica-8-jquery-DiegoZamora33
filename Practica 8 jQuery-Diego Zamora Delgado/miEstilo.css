@@ -1,0 +1,229 @@
+
+*{
+	margin:0;
+	padding: 0;
+	border: 0px solid #000;
+
+}
+
+@font-face {
+
+	font-family: Roboto_bold;
+
+	src: url('font/Roboto-Bold.ttf');
+
+}
+
+@font-face {
+
+	font-family: FontAwesome;
+
+	src: url('font/fontawesome-webfont.ttf');
+
+}
+
+@font-face {
+
+	font-family: Tangerine_bold;
+
+	src: url('font/Tangerine_Bold.ttf');
+
+}
+
+
+@font-face {
+
+	font-family: Font19;
+
+	src: url('font/Nineteenth.otf');
+
+}
+
+
+.contenedor{
+	width: 100%;
+	display: grid;
+	grid-gap: 5px; /*Espacio entre elementos*/
+	grid-template-columns: repeat(7,1fr);
+	grid-template-rows: repeat(16, 1fr);
+	align-items: stretch;
+}
+
+.caja1
+{
+	grid-column: 2/4;
+	grid-row: 3/6;
+
+	border: 2px solid #ab55ff;
+
+	text-align: center;
+	padding-top: 10%;
+}
+.caja2
+{
+	grid-column: 5/7;
+	grid-row: 3/6;
+
+	border: 2px solid #ab55ff;
+
+}
+
+.caja3
+{
+	grid-column: 2/4;
+	grid-row: 7/10;
+
+	border: 2px solid #ab55ff;
+
+	text-align: center;
+	padding-top: 10%;
+	word-break: break-word;
+}
+.caja4
+{
+	grid-column: 5/7;
+	grid-row: 7/10;
+
+	border: 2px solid #ab55ff;
+
+	text-align: center;
+	padding-top: 10%;
+	word-break: break-word;
+}
+
+.caja5
+{
+	grid-column: 2/4;
+	grid-row: 11/14;
+
+	border: 2px solid #ab55ff;
+
+	text-align: center;
+	padding-top: 10%;
+}
+.caja6
+{
+	grid-column: 5/7;
+	grid-row: 11/14;
+
+	border: 2px solid #ab55ff;
+
+	text-align: center;
+	padding-top: 10%;
+}
+
+
+
+.nombre{
+	grid-column: 2/7;
+	grid-row: 2;
+}
+
+.contacto{
+	grid-column: 2/7;
+	grid-row: 15 !important;
+
+
+	border-top: 2px solid #ab55ff;
+}
+
+.font_19
+{
+	font-family: Font19;
+
+	color: #000 !important;
+}
+
+.f-s-180
+{
+	font-size: 180%;
+}
+
+.f-s-90
+{
+	font-size: 90%;
+}
+
+.CV{
+	grid-column: 5/7;
+	grid-row: 4;
+}
+
+.CV div, label
+{
+	font-family: Roboto_bold;
+}
+
+.miFoto
+{
+	grid-column: 2/6;
+	grid-row: 4;
+}
+
+.m-t-15
+{
+	margin-top: 10%;
+}
+
+.w-100
+{
+	width: 100% !important;
+}
+
+.titulo
+{
+	text-align: center;
+
+	padding: 20px !important;
+}
+
+.t-a-c
+{
+	text-align: center;
+}
+
+.miNombre
+{
+	font-family: Font19;
+	font-size: 300%;
+	color: #000 !important;
+	padding: 25px;
+	background: #cb95ff;
+}
+
+.fo{
+	text-decoration: none;
+	font:normal normal normal 34px/1 FontAwesome;
+	font-size: 180%;
+	-webkit-font-smoothing:antialiased;
+	color: #000;
+}
+
+.fa-FB:before
+{
+	content:"\f082"
+}
+
+.fa-Wuats:before
+{
+	content:"\f232"
+}
+.fa-Tel:before
+{
+	content:"\f095"
+}
+.fa-Gmail:before
+{
+	content:"\f199"
+}
+
+.enlace
+{
+	text-decoration: none;
+}
+
+.enlace:hover
+{
+	color: #555;
+	cursor: pointer;
+}

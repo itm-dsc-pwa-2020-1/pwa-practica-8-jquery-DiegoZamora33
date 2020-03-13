@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery</title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="web, internet"> <!--Palabras clave-->
+
+	<link rel="stylesheet"  type="text/css" href="miEstilo.css">
+
+
+	<link rel="stylesheet" href="mdl/material.min.css">
+	<script src="mdl/material.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="dinamico.js"></script>
+
+
+</head>
+<body>
+
+	<div class="contenedor">
+
+		<div class=" nombre titulo">
+
+				<label class="miNombre">Ejemplo de JQuery</label>
+			
+	    </div>
+
+	    <div class="caja1">
+
+	    	<!-- Dropdown Trigger -->
+       		<a class='dropdown-trigger btn' href='#' data-target='dropdown1'>+</a>
+
+	       <!-- Dropdown Structure -->
+	       <ul id='dropdown1' class='dropdown-content'>
+	         <li><a href="#!">Contacto</a></li>
+	         <li><a href="#!"><i class="material-icons"></i>Quienes Somos?</a></li>
+	         <li><a href="#!"><i class="material-icons"></i>Servicios</a></li>
+	       </ul>
+	    	
+	    </div>
+
+	     <div class="caja2">
+
+	     	<div class="carousel">
+		        <div class="carousel-item">
+		          <img src="img/p11.jpg">
+		        </div>
+
+		        <div class="carousel-item">
+		          <img src="img/p22.jpg">
+		        </div>
+
+		        <div class="carousel-item">
+		          <img src="img/p33.jpg">
+		        </div>
+		    </div>
+	    	
+	    </div>
+
+	     <div class="caja3">
+	    	
+	     	<div class="container" id="contenido"></div>
+
+     		 <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" type="button" id="cargar">Cargar</button>  
+
+	    </div>
+
+	     <div class="caja4">
+
+	     	<div class="container" id="contenidoAjax"></div>
+
+     		 <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" type="button" id="cargarAjax">Cargar</button> 
+	    	
+	    </div>
+
+	     <div class="caja5">
+
+	     	<button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" id="btn_fade">Ocultar/Mostrar</button>
+
+
+	          <div id="div1">
+	            <img class="m-t-15" src="img/p22.jpg" width="200">
+	          </div>
+
+	         
+	    	
+	    </div>
+
+	     <div class="caja6">
+
+	     	<label>Pase el Cursor Sobre la imagen</label>
+
+	     	<div class="login100-pic js-tilt" style="padding: 0px;" data-tilt>
+					<img src="img/p11.jpg" alt="IMG" width="300">
+			</div>
+	    	
+	    </div>
+
+	     <div class="w-100 contacto">
+			  <div class=" titulo">
+			  	<label class="font_19 f-s-180">Copyright</label><br>
+			  	<label class="font_19 f-s-180">Diego Zamora Delgado</label><br>
+			  </div>
+		</div>
+
+
+	</div>
+	
+
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+	<script src="js/tilt.jquery.min.js"></script>
+</body>
+</html>
